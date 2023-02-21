@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		C8910D5E29A4C1000013AB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D5D29A4C1000013AB3E /* AppDelegate.swift */; };
 		C8910D6029A4C1000013AB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D5F29A4C1000013AB3E /* SceneDelegate.swift */; };
-		C8910D6229A4C1000013AB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D6129A4C1000013AB3E /* ViewController.swift */; };
 		C8910D6529A4C1000013AB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8910D6329A4C1000013AB3E /* Main.storyboard */; };
 		C8910D6729A4C1020013AB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8910D6629A4C1020013AB3E /* Assets.xcassets */; };
 		C8910D6A29A4C1020013AB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8910D6829A4C1020013AB3E /* LaunchScreen.storyboard */; };
+		C8910D7529A4C3310013AB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D7329A4C32A0013AB3E /* ViewController.swift */; };
+		C8910D7629A4C3310013AB3E /* ChangeLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D7429A4C32A0013AB3E /* ChangeLanguageVC.swift */; };
+		C8910D7E29A4C3BF0013AB3E /* ForceLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8910D7829A4C3BE0013AB3E /* ForceLanguage.swift */; };
+		C8910D7F29A4C3BF0013AB3E /* BundleLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = C8910D7C29A4C3BE0013AB3E /* BundleLocalization.m */; };
+		C8910D8029A4C3BF0013AB3E /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = C8910D7D29A4C3BF0013AB3E /* NSBundle+Localization.m */; };
+		C8910D9229A4C7C30013AB3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8910D8F29A4C7C30013AB3E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8910D5A29A4C1000013AB3E /* TranslateIosProjectNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslateIosProjectNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8910D5D29A4C1000013AB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8910D5F29A4C1000013AB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8910D6129A4C1000013AB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8910D6429A4C1000013AB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8910D6629A4C1020013AB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8910D6929A4C1020013AB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8910D6B29A4C1020013AB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8910D7129A4C1290013AB3E /* TranslateIosProjectNativeBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslateIosProjectNativeBridge.h; sourceTree = "<group>"; };
+		C8910D7329A4C32A0013AB3E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8910D7429A4C32A0013AB3E /* ChangeLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLanguageVC.swift; sourceTree = "<group>"; };
+		C8910D7829A4C3BE0013AB3E /* ForceLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceLanguage.swift; sourceTree = "<group>"; };
+		C8910D7A29A4C3BE0013AB3E /* BundleLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleLocalization.h; sourceTree = "<group>"; };
+		C8910D7B29A4C3BE0013AB3E /* NSBundle+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localization.h"; sourceTree = "<group>"; };
+		C8910D7C29A4C3BE0013AB3E /* BundleLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleLocalization.m; sourceTree = "<group>"; };
+		C8910D7D29A4C3BF0013AB3E /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localization.m"; sourceTree = "<group>"; };
+		C8910D8B29A4C7190013AB3E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		C8910D8D29A4C7250013AB3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C8910D9029A4C7C30013AB3E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C8910D9129A4C7C30013AB3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,53 @@
 			children = (
 				C8910D5D29A4C1000013AB3E /* AppDelegate.swift */,
 				C8910D5F29A4C1000013AB3E /* SceneDelegate.swift */,
-				C8910D6129A4C1000013AB3E /* ViewController.swift */,
 				C8910D6329A4C1000013AB3E /* Main.storyboard */,
 				C8910D6629A4C1020013AB3E /* Assets.xcassets */,
+				C8910D8E29A4C7C30013AB3E /* Strings */,
+				C8910D7229A4C32A0013AB3E /* VCs */,
 				C8910D6829A4C1020013AB3E /* LaunchScreen.storyboard */,
+				C8910D7729A4C3BE0013AB3E /* localizeLibrary */,
 				C8910D6B29A4C1020013AB3E /* Info.plist */,
+				C8910D7129A4C1290013AB3E /* TranslateIosProjectNativeBridge.h */,
 			);
 			path = TranslateIosProjectNative;
+			sourceTree = "<group>";
+		};
+		C8910D7229A4C32A0013AB3E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				C8910D7329A4C32A0013AB3E /* ViewController.swift */,
+				C8910D7429A4C32A0013AB3E /* ChangeLanguageVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		C8910D7729A4C3BE0013AB3E /* localizeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C8910D7829A4C3BE0013AB3E /* ForceLanguage.swift */,
+				C8910D7929A4C3BE0013AB3E /* localizeObjective */,
+			);
+			path = localizeLibrary;
+			sourceTree = "<group>";
+		};
+		C8910D7929A4C3BE0013AB3E /* localizeObjective */ = {
+			isa = PBXGroup;
+			children = (
+				C8910D7A29A4C3BE0013AB3E /* BundleLocalization.h */,
+				C8910D7B29A4C3BE0013AB3E /* NSBundle+Localization.h */,
+				C8910D7C29A4C3BE0013AB3E /* BundleLocalization.m */,
+				C8910D7D29A4C3BF0013AB3E /* NSBundle+Localization.m */,
+			);
+			path = localizeObjective;
+			sourceTree = "<group>";
+		};
+		C8910D8E29A4C7C30013AB3E /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				C8910D8F29A4C7C30013AB3E /* Localizable.strings */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +165,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = C8910D5129A4C1000013AB3E;
 			productRefGroup = C8910D5B29A4C1000013AB3E /* Products */;
@@ -126,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8910D6A29A4C1020013AB3E /* LaunchScreen.storyboard in Resources */,
+				C8910D9229A4C7C30013AB3E /* Localizable.strings in Resources */,
 				C8910D6729A4C1020013AB3E /* Assets.xcassets in Resources */,
 				C8910D6529A4C1000013AB3E /* Main.storyboard in Resources */,
 			);
@@ -138,8 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8910D6229A4C1000013AB3E /* ViewController.swift in Sources */,
+				C8910D8029A4C3BF0013AB3E /* NSBundle+Localization.m in Sources */,
+				C8910D7F29A4C3BF0013AB3E /* BundleLocalization.m in Sources */,
 				C8910D5E29A4C1000013AB3E /* AppDelegate.swift in Sources */,
+				C8910D7629A4C3310013AB3E /* ChangeLanguageVC.swift in Sources */,
+				C8910D7E29A4C3BF0013AB3E /* ForceLanguage.swift in Sources */,
+				C8910D7529A4C3310013AB3E /* ViewController.swift in Sources */,
 				C8910D6029A4C1000013AB3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +213,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C8910D6429A4C1000013AB3E /* Base */,
+				C8910D8B29A4C7190013AB3E /* ar */,
+				C8910D8D29A4C7250013AB3E /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +227,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C8910D8F29A4C7C30013AB3E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8910D9029A4C7C30013AB3E /* ar */,
+				C8910D9129A4C7C30013AB3E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -170,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -303,6 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-TranslateIosProjectNative.TranslateIosProjectNative";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = TranslateIosProjectNative/TranslateIosProjectNativeBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-TranslateIosProjectNative.TranslateIosProjectNative";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = TranslateIosProjectNative/TranslateIosProjectNativeBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
